@@ -1,7 +1,7 @@
 #Another rewrite of code
 #Ashley Elliott
 import os
-os.chdir("C:\\Users\\oxfor\\OneDrive\\Documents\\Ashley's Stuff\\School stuff\\Grad School\\Research\\Isochrone Data")
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -16,8 +16,13 @@ import corner
 #f = open("PARSEC_data_66_88_new.txt", 'r')
 #f_new = open("PARSEC_data_edit_66_88_new.txt", 'a')
 
-f1 = open('PARSEC_data_7_4.txt','r')
-f_new1 = open("PARSEC_data_edit_7_4.txt",'a')
+iso_dir = os.path.join('hd29391', 'Isochrone Data')
+old_data = os.path.join('hd29391', 'old_data')
+parsec_data = os.path.join(old_data, 'parsecdatafiles')
+
+f1 = open(os.path.join(parsec_data, 'PARSEC_data_7_4.txt'),'r')
+f_new1 = open(os.path.join(parsec_data, "PARSEC_data_edit_7_4.txt"),'a')
+
 f_new1.write("Zini MH logAge Mini int_IMF Mass logL logTe logg label McoreTP C_O period0  period1  period2  period3  period4  pmode  Mloss  tau1m   X   Y   Xc  Xn  Xo  Cexcess  Z 	 mbolmag  Umag    Bmag    Vmag    Rmag    Imag    Jmag    Hmag    Kmag \n")
 no = "#"
 for line in f1:
