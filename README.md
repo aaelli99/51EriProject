@@ -1,7 +1,9 @@
 # 51EriProject
-
 Project description. Two sentences about the goal of the project and the paper that uses this code.
 
+Link to paper here: [Paper](https://arxiv.org/abs/2401.01468)
+
+PARSEC Isochrone website: [CMD 3.7 input form](http://stev.oapd.inaf.it/cgi-bin/cmd)
 # Required Software
 ## Git
 Git and GitHub are standard tools across astronomy, computer science, computer engineering,
