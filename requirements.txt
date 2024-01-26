@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+pandas
+astropy
+corner
+gaiadr3-zeropoint
