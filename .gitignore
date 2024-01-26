@@ -1,3 +1,7 @@
+# custom patterns for this project
+hd29391/Screenshots/
+hd29391/olddatafiles/
+hd29391/extra
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
