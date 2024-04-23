@@ -1,5 +1,7 @@
 # 51EriProject
-Project description. Two sentences about the goal of the project and the paper that uses this code.
+This code was used to study 51 Eridani and its exoplanet 51 Eri b. 
+This set of code determines angular diameter, effective temeprature, stellar luminosity, stellar age, stellar mass, and planetary mass. 
+
 
 Link to paper here: [Paper](https://arxiv.org/abs/2401.01468)
 
